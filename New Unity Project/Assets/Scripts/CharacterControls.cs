@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CharacterControls : MonoBehaviour
 {
-    public float jumpStrength = 2f;
+    public float jumpStrength;
+    private bool onGround;
     public float MoveSpeed;
     Animator m_Animator;
     Rigidbody m_Rigidbody;
@@ -13,8 +14,9 @@ public class CharacterControls : MonoBehaviour
     {
         m_Animator = GetComponent<Animator>();
         m_Rigidbody = GetComponent<Rigidbody>();
+        onGround = true;
     }
-    void Update()
+    void FixedUpdate()
     {
         PlayerCommands();
     }
@@ -24,55 +26,37 @@ public class CharacterControls : MonoBehaviour
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
         Vector3 playerMovement = new Vector3(hor, 0, ver) * MoveSpeed * Time.deltaTime;
-       
 
-        bool hasHorizontalInput = !Mathf.Approximately(hor, 0f);
-        bool hasVerticalInput = !Mathf.Approximately(ver, 0f);
-        bool isWalking = hasHorizontalInput || hasVerticalInput;
         bool attacking;
 
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButton(2))
         {
             attacking = true;
         }
         else attacking = false;
 
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && onGround == true)
         {
-            Jump();
+            m_Rigidbody.velocity = new Vector3(0f, jumpStrength, 0f);
+            onGround = false;
         }
        
-        m_Animator.SetBool("IsWalking", isWalking);
         m_Animator.SetBool("IsAttacking", attacking);
-        m_Animator.SetBool("OnGround", CanJump());
+        m_Animator.SetBool("OnGround", onGround);
+        m_Animator.SetFloat("Horizontal_F", hor);
+        m_Animator.SetFloat("Vertical_F", ver);
 
         transform.Translate(playerMovement, Space.Self);
 
         
     }
-    void Jump()
+    void OnCollisionEnter(Collision other)
     {
-        if (CanJump())
+        if (other.gameObject.CompareTag("ground"))
         {
-            m_Rigidbody.AddForce(jumpStrength * transform.up, ForceMode.Impulse);
+            onGround = true;
         }
     }
-
-    bool CanJump()
-    {
-        // Create Ray
-        Ray ray = new Ray(transform.position, transform.up * -1);
-
-        // Create Hit Info
-        RaycastHit hit;
-
-        if (Physics.Raycast(ray, out hit, transform.localScale.y + 0.2f))
-        {
-            return true;
-        }
-
-        // Nothing so return false
-        return false;
-    }
+    
 }
