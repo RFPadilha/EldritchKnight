@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-03-19T14:49:06.387-03:00
+  initializedAtString: 2020-03-19T14:49:06.387-03:00
+  log:
+  - commitID: fe1d6ac0990cf4fbbf32302ae3b78b8f434b4310
+    mergeA: 
+    mergeB: 
+    authorName: RFPadilha
+    authorEmail: 34008458+RFPadilha@users.noreply.github.com
+    commitEmail: 34008458+RFPadilha@users.noreply.github.com
+    commitName: RFPadilha
+    summary: Initial commit
+    description: 
+    timeString: 2020-03-19T14:25:02.000-03:00
+    commitTimeString: 2020-03-19T14:25:02.000-03:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Unity\Hub\Eldritch Knight\.gitattributes
+      projectPath: ..\.gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
