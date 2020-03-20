@@ -6,7 +6,7 @@ public class CharacterControls : MonoBehaviour
 {
     public float jumpStrength;
     private bool onGround;
-    public float MoveSpeed;
+    public float moveSpeed;
     Animator m_Animator;
     Rigidbody m_Rigidbody;
 
@@ -25,7 +25,10 @@ public class CharacterControls : MonoBehaviour
     {
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
-        Vector3 playerMovement = new Vector3(hor, 0, ver) * MoveSpeed * Time.deltaTime;
+        Vector3 playerMovement = new Vector3(hor, 0, ver).normalized * moveSpeed * Time.deltaTime;
+
+        Vector3 newPosition = new Vector3(hor, 0.0f, ver);
+        
 
         bool attacking;
 
@@ -44,10 +47,13 @@ public class CharacterControls : MonoBehaviour
        
         m_Animator.SetBool("IsAttacking", attacking);
         m_Animator.SetBool("OnGround", onGround);
-        m_Animator.SetFloat("Horizontal_F", hor);
-        m_Animator.SetFloat("Vertical_F", ver);
+        m_Animator.SetFloat("Horizontal_m", hor);
+        m_Animator.SetFloat("Vertical_M", ver);
 
-        transform.Translate(playerMovement, Space.Self);
+        transform.LookAt(newPosition + transform.position);
+        transform.Translate(newPosition * moveSpeed * Time.deltaTime, Space.World);
+
+        //transform.Translate(playerMovement, Space.Self);
 
         
     }
