@@ -37,14 +37,13 @@ public class TargetPracticeScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)//weapon hit detection
     {
-    if (other.gameObject.CompareTag("Weapon"))
-    {
-        this.takeDamage();
+        if (other.gameObject.GetComponent<WeaponCollider>().attack)
+        {
+           TakeDamage();
+        }
 
     }
-       
-    }
-    void takeDamage()
+    void TakeDamage()
     {
         hitTime = Time.time;
         wasHit = true;

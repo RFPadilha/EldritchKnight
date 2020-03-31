@@ -13,7 +13,8 @@ public class ArenaControlsScript : MonoBehaviour
     private bool onGround;
     private bool isFalling;
     //player variables
-    public bool attacking;
+    bool attacking;
+    public float attackDuration;
     public float moveSpeed;
     //Timed events variables
     public float cooldownTime;
@@ -29,6 +30,7 @@ public class ArenaControlsScript : MonoBehaviour
     //Unity components for quick refs
     Animator m_Animator;
     Rigidbody m_Rigidbody;
+    private WeaponCollider weaponCollider;
 
     void Start()
     {
@@ -37,6 +39,10 @@ public class ArenaControlsScript : MonoBehaviour
         onGround = true;
         isFalling = false;
         dashTime = startDashTime;
+        attackDuration = 0f;
+
+        weaponCollider = GetComponentInChildren<WeaponCollider>();
+        
         if (maxHealth < health)
         {
             maxHealth = health;
@@ -61,14 +67,21 @@ public class ArenaControlsScript : MonoBehaviour
 
         Vector3 newPosition = new Vector3(hor, 0.0f, ver);
 
-
         
 
-        if (Input.GetMouseButton(0))
+
+
+        if (Input.GetMouseButton(0) && Time.time > attackDuration)
         {
+            attackDuration = Time.time + 1f;
             attacking = true;
+            weaponCollider.attack = true;
         }//regulates attack, currently on left MB
-        else attacking = false;
+        if(Time.time > attackDuration)
+        {
+            attacking = false;
+            weaponCollider.attack = false;
+        }
 
 
         if (Input.GetKey(KeyCode.Space) && onGround == true)
@@ -116,6 +129,8 @@ public class ArenaControlsScript : MonoBehaviour
             wasHit = false;
         }//resets being hit animation
 
+
+        //Animator communications
         m_Animator.SetBool("IsAttacking", attacking);
         m_Animator.SetBool("OnGround", onGround);
         m_Animator.SetBool("IsWalking", isWalking);
@@ -123,8 +138,16 @@ public class ArenaControlsScript : MonoBehaviour
         m_Animator.SetBool("IsDashing", isDashing);
         m_Animator.SetBool("WasHit", wasHit);
 
+
+        //movement updater
         transform.LookAt(newPosition + transform.position);
-        transform.Translate(newPosition * moveSpeed * Time.deltaTime, Space.World);
+        if(wasHit == true || attacking == true)
+        {
+            transform.Translate(newPosition * moveSpeed * Time.deltaTime/2, Space.World);
+        }
+        else {
+            transform.Translate(newPosition * moveSpeed * Time.deltaTime, Space.World);
+        }
 
 
 
@@ -132,9 +155,9 @@ public class ArenaControlsScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)//weapon hit detection
     {
-        if (other.gameObject.CompareTag("Weapon") && attacking==true)
+        if (other.gameObject.GetComponent<WeaponCollider>().attack)
         {
-            takeDamage();
+            TakeDamage();
         }
     }
     void OnCollisionEnter(Collision other)
@@ -146,13 +169,13 @@ public class ArenaControlsScript : MonoBehaviour
         }
     }//collision detection, used for jumps so far
     
-    void takeDamage()
+    void TakeDamage()
     {
         hitTime = Time.time;
         wasHit = true;
         health -= damage;
         healthBar.UpdateBar(health, maxHealth);
-        
-        
+
+
     }
 }
