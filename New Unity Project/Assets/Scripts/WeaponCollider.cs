@@ -5,9 +5,14 @@ using UnityEngine;
 public class WeaponCollider : MonoBehaviour
 {
     public bool attack;
-    void Start()
+    public float weaponDamage;
+    public float finalDamage;
+    private void OnTriggerEnter(Collider other)//weapon hit detection
     {
-        gameObject.SetActive(true);
-        attack = false;
-    }
+        if (other.gameObject.GetComponent<ShieldCollider>().block)
+        {
+            finalDamage = weaponDamage * other.gameObject.GetComponent<ShieldCollider>().damageReduction;
+        }
+        
+    }//if player's attacking, deals damage
 }
