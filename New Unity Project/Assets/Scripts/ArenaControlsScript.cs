@@ -12,6 +12,7 @@ public class ArenaControlsScript : MonoBehaviour
     //Variables that control general Y movement
     public float jumpStrength;
     private bool onGround;
+    private bool isBlocking;
     private bool isFalling;
     //player variables
     bool attacking;
@@ -42,6 +43,7 @@ public class ArenaControlsScript : MonoBehaviour
         onGround = true;
         isFalling = false;
         isDead = false;
+        isBlocking = false;
         dashTime = startDashTime;
         
         if (maxHealth < health)
@@ -78,6 +80,7 @@ public class ArenaControlsScript : MonoBehaviour
         if(Time.time > attackDuration)
         {
             attacking = false;
+            isBlocking = false;
             weaponCollider.attack = false;
             shieldCollider.block = false;
             if (Input.GetMouseButton(0) && Time.time > attackDuration + 1f && !Input.GetMouseButton(1))
@@ -89,6 +92,8 @@ public class ArenaControlsScript : MonoBehaviour
             else if(!Input.GetMouseButton(0) && Time.time > attackDuration + 1f && Input.GetMouseButton(1))
             {
                 shieldCollider.block = true;
+                isBlocking = true;
+                newPosition = new Vector3(0f, 0f, 0f);
             }
         }//regulates attack and block
 
@@ -118,7 +123,7 @@ public class ArenaControlsScript : MonoBehaviour
                 
             }
             
-            if (Input.GetKey(KeyCode.LeftShift) && isWalking == true && isDashing==false)
+            if (Input.GetKey(KeyCode.LeftShift) && isWalking == true && isDashing==false && (onGround == true || isFalling == true))
             {
                 
                 dashTime -= Time.deltaTime;
@@ -155,13 +160,14 @@ public class ArenaControlsScript : MonoBehaviour
         m_Animator.SetBool("IsDashing", isDashing);
         m_Animator.SetBool("WasHit", wasHit);
         m_Animator.SetBool("IsDead", isDead);
+        m_Animator.SetBool("IsBlocking", isBlocking);
 
 
         //movement updater, slows down movement when attacking, or getting hit
         transform.LookAt(newPosition + transform.position);
         if(wasHit == true || attacking == true)
         {
-            transform.Translate(newPosition * moveSpeed * Time.deltaTime/2, Space.World);
+            transform.Translate(newPosition * moveSpeed * Time.deltaTime/3, Space.World);
         }
         else {
             transform.Translate(newPosition * moveSpeed * Time.deltaTime, Space.World);
@@ -191,7 +197,7 @@ public class ArenaControlsScript : MonoBehaviour
             onGround = true;
             isFalling = false;
         }//tests for collision with ground
-    }
+    }//only used for "onGround" detection so far
     
     
     
