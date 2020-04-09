@@ -9,10 +9,9 @@ public class WeaponCollider : MonoBehaviour
     public float finalDamage;
     private void OnTriggerEnter(Collider other)//weapon hit detection
     {
-        if (other.gameObject.GetComponent<ShieldCollider>().block)
-        {
-            finalDamage = weaponDamage * other.gameObject.GetComponent<ShieldCollider>().damageReduction;
-        }
-        
+        finalDamage = weaponDamage;
+
+
+
     }//if player's attacking, deals damage
 }

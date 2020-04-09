@@ -12,7 +12,7 @@ public class ArenaControlsScript : MonoBehaviour
     //Variables that control general Y movement
     public float jumpStrength;
     private bool onGround;
-    private bool isBlocking;
+    public bool isBlocking;
     private bool isFalling;
     //player variables
     bool attacking;
@@ -34,7 +34,6 @@ public class ArenaControlsScript : MonoBehaviour
     Animator m_Animator;
     Rigidbody m_Rigidbody;
     private WeaponCollider weaponCollider;
-    private ShieldCollider shieldCollider;
 
     void Start()
     {
@@ -54,7 +53,6 @@ public class ArenaControlsScript : MonoBehaviour
         m_Animator = GetComponent<Animator>();
         m_Rigidbody = GetComponentInChildren<Rigidbody>();
         weaponCollider = GetComponentInChildren<WeaponCollider>();
-        shieldCollider = GetComponentInChildren<ShieldCollider>();
 
     }//initializes values and components
     void FixedUpdate()
@@ -82,7 +80,6 @@ public class ArenaControlsScript : MonoBehaviour
             attacking = false;
             isBlocking = false;
             weaponCollider.attack = false;
-            shieldCollider.block = false;
             if (Input.GetMouseButton(0) && Time.time > attackDuration + 1f && !Input.GetMouseButton(1))
             {
                 attackDuration = Time.time + 1f;
@@ -91,7 +88,6 @@ public class ArenaControlsScript : MonoBehaviour
             }
             else if(!Input.GetMouseButton(0) && Time.time > attackDuration + 1f && Input.GetMouseButton(1))
             {
-                shieldCollider.block = true;
                 isBlocking = true;
                 newPosition = new Vector3(0f, 0f, 0f);
             }
@@ -160,7 +156,7 @@ public class ArenaControlsScript : MonoBehaviour
         m_Animator.SetBool("IsDashing", isDashing);
         m_Animator.SetBool("WasHit", wasHit);
         m_Animator.SetBool("IsDead", isDead);
-        m_Animator.SetBool("IsBlocking", isBlocking);
+        m_Animator.SetBool("IsEnduring", isBlocking);
 
 
         //movement updater, slows down movement when attacking, or getting hit
@@ -187,7 +183,9 @@ public class ArenaControlsScript : MonoBehaviour
             health -= other.gameObject.GetComponent<WeaponCollider>().finalDamage;
             healthBar.UpdateBar(health, maxHealth);
         }//if player's attacking, deals damage
-        else { }//do nothing
+        else {
+            Debug.Log("Hits the air. Ouch");
+        }//do nothing
     }
     
     void OnCollisionEnter(Collision other)

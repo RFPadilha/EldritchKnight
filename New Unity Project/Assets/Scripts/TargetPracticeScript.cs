@@ -12,6 +12,7 @@ public class TargetPracticeScript : MonoBehaviour
     private float hitTime;
     private bool onGround;
     private bool isDead;
+    public bool isBlocking;
 
     //Unity components for quick refs
     Animator m_Animator;
