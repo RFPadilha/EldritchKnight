@@ -16,7 +16,7 @@ public class ArenaControlsScript : MonoBehaviour
     private bool isFalling;
     //player variables
     bool attacking;
-    public float attackDuration;
+    public float nextAttackTime;
     public float moveSpeed;
     //Timed events variables
     public float cooldownTime;
@@ -70,23 +70,27 @@ public class ArenaControlsScript : MonoBehaviour
         bool hasVerMove = !Mathf.Approximately(ver, 0f);
         bool isWalking = hasHorMove || hasVerMove;
 
+        bool jumpButtonDown = Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.Joystick1Button0);
+        bool attackButtonDown = Input.GetMouseButton(0) || !Mathf.Approximately(Input.GetAxis("RightTrigger"), 0f);
+        bool blockButtonDown = Input.GetMouseButton(1) || !Mathf.Approximately(Input.GetAxis("LeftTrigger"), 0f);
+
 
         Vector3 newPosition = new Vector3(hor, 0.0f, ver);//regulates look direction, not really sure why tho
 
 
         
-        if(Time.time > attackDuration)
+        if(Time.time > nextAttackTime)
         {
             attacking = false;
             isBlocking = false;
             weaponCollider.attack = false;
-            if (Input.GetMouseButton(0) && Time.time > attackDuration + 1f && !Input.GetMouseButton(1))
+            if (attackButtonDown && Time.time > nextAttackTime + 0.4f && !blockButtonDown)//tests for attack while not blocking
             {
-                attackDuration = Time.time + 1f;
+                nextAttackTime = Time.time + 0.4f;
                 attacking = true;
                 weaponCollider.attack = true;
             }
-            else if(!Input.GetMouseButton(0) && Time.time > attackDuration + 1f && Input.GetMouseButton(1))
+            else if(!attackButtonDown && Time.time > nextAttackTime + 0.4f && blockButtonDown)//tests for block while not attacking
             {
                 isBlocking = true;
                 newPosition = new Vector3(0f, 0f, 0f);
@@ -95,7 +99,7 @@ public class ArenaControlsScript : MonoBehaviour
 
 
 
-        if (Input.GetKey(KeyCode.Space) && onGround == true)
+        if (jumpButtonDown && onGround == true)
         {
             m_Rigidbody.velocity = new Vector3(0f, jumpStrength, 0f);
             onGround = false;

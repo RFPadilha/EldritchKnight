@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-03-19T14:49:06.076-03:00
-  initializedAtString: 2020-03-19T14:49:03.326-03:00
+  lastUpdatedAtString: 2020-04-29T14:37:38.310-03:00
+  initializedAtString: 2020-04-29T14:37:38.310-03:00
   currentGitRemote:
     name: origin
     url: https://github.com/RFPadilha/EldritchKnight.git

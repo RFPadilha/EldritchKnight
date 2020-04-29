@@ -5,7 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(Camera))]
 public class ArenaCameraScript : MonoBehaviour
 {
-    // Start is called before the first frame update
     public Transform Obstruction;
     //Transform Target;//used for removing view obstructions
 
