@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-04-29T16:39:23.615-03:00
-  initializedAtString: 2020-04-29T14:38:16.928-03:00
+  lastUpdatedAtString: 2020-05-04T16:53:56.705-03:00
+  initializedAtString: 2020-05-04T16:08:47.188-03:00
   entries:
   - path: New Unity Project\Assets\Animations\AirDash.anim.meta
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
@@ -100,6 +100,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: New Unity Project\Assets\Animations\Two Handed\2Hand-Sword-Land.anim
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Assets\Animations\Two Handed\2Hand-Sword-Land.anim
+    projectPath: Assets\Animations\Two Handed\2Hand-Sword-Land.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: New Unity Project\Assets\Animations\Two Handed\TwoHandedEnemy.controller
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Assets\Animations\Two Handed\TwoHandedEnemy.controller
+    projectPath: Assets\Animations\Two Handed\TwoHandedEnemy.controller
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Assets\Animations\Two Handed\TwoHandedEnemy.controller.meta
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Assets\Animations\Two Handed\TwoHandedEnemy.controller.meta
+    projectPath: Assets\Animations\Two Handed\TwoHandedEnemy.controller.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Assets\Animations\Two Handed\TwoHandedMage.controller
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Assets\Animations\Two Handed\TwoHandedMage.controller
@@ -121,6 +142,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: New Unity Project\Assets\Scenes\AnimationTesting.meta
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Assets\Scenes\AnimationTesting.meta
+    projectPath: Assets\Scenes\AnimationTesting.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Assets\Scenes\AnimationTesting.unity
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Assets\Scenes\AnimationTesting.unity
@@ -128,6 +156,20 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: New Unity Project\Assets\Scenes\AnimationTesting\NavMesh.asset
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Assets\Scenes\AnimationTesting\NavMesh.asset
+    projectPath: Assets\Scenes\AnimationTesting\NavMesh.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Assets\Scenes\AnimationTesting\NavMesh.asset.meta
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Assets\Scenes\AnimationTesting\NavMesh.asset.meta
+    projectPath: Assets\Scenes\AnimationTesting\NavMesh.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Assets\Scripts\ArenaCameraScript.cs
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Assets\Scripts\ArenaCameraScript.cs
@@ -660,13 +702,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Library\Artifacts\05\05b13db6cec1730ecf0360b772db4723
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Library\Artifacts\05\05b13db6cec1730ecf0360b772db4723
-    projectPath: Library\Artifacts\05\05b13db6cec1730ecf0360b772db4723
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: New Unity Project\Library\Artifacts\05\05bb0e909fada9eaa86a93bdcdd986d9
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\05\05bb0e909fada9eaa86a93bdcdd986d9
@@ -1420,6 +1455,13 @@ MonoBehaviour:
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\0d\0dc8aa516232b25254d4c8209f865862
     projectPath: Library\Artifacts\0d\0dc8aa516232b25254d4c8209f865862
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Library\Artifacts\0d\0de76d3bb6280b12ba530a02b69bc939
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Library\Artifacts\0d\0de76d3bb6280b12ba530a02b69bc939
+    projectPath: Library\Artifacts\0d\0de76d3bb6280b12ba530a02b69bc939
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -2652,13 +2694,6 @@ MonoBehaviour:
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\1d\1d6a681a0923f1dc546ad1fa41085354
     projectPath: Library\Artifacts\1d\1d6a681a0923f1dc546ad1fa41085354
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Library\Artifacts\1d\1d730a13e510870c080051c5dec48deb
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Library\Artifacts\1d\1d730a13e510870c080051c5dec48deb
-    projectPath: Library\Artifacts\1d\1d730a13e510870c080051c5dec48deb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -6057,20 +6092,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Library\Artifacts\47\47a626ccde4a173f7d3516b7f34227dc
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Library\Artifacts\47\47a626ccde4a173f7d3516b7f34227dc
-    projectPath: Library\Artifacts\47\47a626ccde4a173f7d3516b7f34227dc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Library\Artifacts\47\47b182e11e7f924827a2f66ea3cd88f5
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Library\Artifacts\47\47b182e11e7f924827a2f66ea3cd88f5
-    projectPath: Library\Artifacts\47\47b182e11e7f924827a2f66ea3cd88f5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: New Unity Project\Library\Artifacts\47\47b4d4d0a58e3ea84bc1c6eb817ce3b6
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\47\47b4d4d0a58e3ea84bc1c6eb817ce3b6
@@ -7016,6 +7037,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: New Unity Project\Library\Artifacts\53\530ad238d85595db5abc47489be52b78
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Library\Artifacts\53\530ad238d85595db5abc47489be52b78
+    projectPath: Library\Artifacts\53\530ad238d85595db5abc47489be52b78
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Library\Artifacts\53\531f431731943ab8e041d331092e1174
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\53\531f431731943ab8e041d331092e1174
@@ -9018,6 +9046,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: New Unity Project\Library\Artifacts\6c\6cf0f609261ae25dabee171ccf62639b
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Library\Artifacts\6c\6cf0f609261ae25dabee171ccf62639b
+    projectPath: Library\Artifacts\6c\6cf0f609261ae25dabee171ccf62639b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Library\Artifacts\6d\6d037d74104d4ca20aea4f49841bc03c
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\6d\6d037d74104d4ca20aea4f49841bc03c
@@ -9239,13 +9274,6 @@ MonoBehaviour:
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\70\70a2777f0e4080d3d93117dbaa982158
     projectPath: Library\Artifacts\70\70a2777f0e4080d3d93117dbaa982158
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Library\Artifacts\70\70b798b85e3f7462b0b7c7c963c32042
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Library\Artifacts\70\70b798b85e3f7462b0b7c7c963c32042
-    projectPath: Library\Artifacts\70\70b798b85e3f7462b0b7c7c963c32042
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -9750,6 +9778,13 @@ MonoBehaviour:
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\76\764eea2e74732b1ef3ab90a2aa67f12e
     projectPath: Library\Artifacts\76\764eea2e74732b1ef3ab90a2aa67f12e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Library\Artifacts\76\7652b4548c68497f46edea3c183f68aa
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Library\Artifacts\76\7652b4548c68497f46edea3c183f68aa
+    projectPath: Library\Artifacts\76\7652b4548c68497f46edea3c183f68aa
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -10572,13 +10607,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Library\Artifacts\81\813f9b01b77754b26923b41961f1789b
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Library\Artifacts\81\813f9b01b77754b26923b41961f1789b
-    projectPath: Library\Artifacts\81\813f9b01b77754b26923b41961f1789b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: New Unity Project\Library\Artifacts\81\81471f3c90f210cb8bd1978460b24641
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\81\81471f3c90f210cb8bd1978460b24641
@@ -10660,13 +10688,6 @@ MonoBehaviour:
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\82\823c3032a590b34fb950add64fa4f2ef
     projectPath: Library\Artifacts\82\823c3032a590b34fb950add64fa4f2ef
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Library\Artifacts\82\8258331a75a5e0755bd1b8bc2af03a5b
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Library\Artifacts\82\8258331a75a5e0755bd1b8bc2af03a5b
-    projectPath: Library\Artifacts\82\8258331a75a5e0755bd1b8bc2af03a5b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -12266,13 +12287,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Library\Artifacts\98\98ccb5f1b2ecdf088ec7aca4e9b2d2bf
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Library\Artifacts\98\98ccb5f1b2ecdf088ec7aca4e9b2d2bf
-    projectPath: Library\Artifacts\98\98ccb5f1b2ecdf088ec7aca4e9b2d2bf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: New Unity Project\Library\Artifacts\98\98d4845063528447bf975c601362a8f2
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\98\98d4845063528447bf975c601362a8f2
@@ -12760,13 +12774,6 @@ MonoBehaviour:
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\9e\9e2afa942d8c4ef8232083cedba532f0
     projectPath: Library\Artifacts\9e\9e2afa942d8c4ef8232083cedba532f0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Library\Artifacts\9e\9e2ca9ad487cacf2d4402988b4bef2da
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Library\Artifacts\9e\9e2ca9ad487cacf2d4402988b4bef2da
-    projectPath: Library\Artifacts\9e\9e2ca9ad487cacf2d4402988b4bef2da
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -13533,6 +13540,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: New Unity Project\Library\Artifacts\a6\a613f04c9b35ce94288e5c84f2c20268
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Library\Artifacts\a6\a613f04c9b35ce94288e5c84f2c20268
+    projectPath: Library\Artifacts\a6\a613f04c9b35ce94288e5c84f2c20268
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Library\Artifacts\a6\a61f37198d43dab4e304178cef3727eb
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\a6\a61f37198d43dab4e304178cef3727eb
@@ -14366,13 +14380,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Library\Artifacts\af\af865bdc962866b07bf784a60c0c236c
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Library\Artifacts\af\af865bdc962866b07bf784a60c0c236c
-    projectPath: Library\Artifacts\af\af865bdc962866b07bf784a60c0c236c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: New Unity Project\Library\Artifacts\af\af92eb5f29651df7388adac061661ef5
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\af\af92eb5f29651df7388adac061661ef5
@@ -16725,13 +16732,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Library\Artifacts\cc\ccf17952874ffaddfb7892efb03c5acc
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Library\Artifacts\cc\ccf17952874ffaddfb7892efb03c5acc
-    projectPath: Library\Artifacts\cc\ccf17952874ffaddfb7892efb03c5acc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: New Unity Project\Library\Artifacts\cc\ccf1e1e5f0cf17321d5c942a14ca27fd
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\cc\ccf1e1e5f0cf17321d5c942a14ca27fd
@@ -16907,6 +16907,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: New Unity Project\Library\Artifacts\ce\ce59c46971aa643d14b34672673b713e
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Library\Artifacts\ce\ce59c46971aa643d14b34672673b713e
+    projectPath: Library\Artifacts\ce\ce59c46971aa643d14b34672673b713e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Library\Artifacts\ce\ce6922d04e475064729ebe888e5a6835
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\ce\ce6922d04e475064729ebe888e5a6835
@@ -17646,13 +17653,6 @@ MonoBehaviour:
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\d8\d80ec04ab5afbf1a8e301d8729dfd5bd
     projectPath: Library\Artifacts\d8\d80ec04ab5afbf1a8e301d8729dfd5bd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Library\Artifacts\d8\d83812bb45bb1036a65559a0812cd077
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Library\Artifacts\d8\d83812bb45bb1036a65559a0812cd077
-    projectPath: Library\Artifacts\d8\d83812bb45bb1036a65559a0812cd077
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -20589,6 +20589,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: New Unity Project\Library\Artifacts\fd\fd3696725db9a3d495ea47da17489d7a
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Library\Artifacts\fd\fd3696725db9a3d495ea47da17489d7a
+    projectPath: Library\Artifacts\fd\fd3696725db9a3d495ea47da17489d7a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Library\Artifacts\fd\fd59c4a262aa0a28e7be4f6badcaf664
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\Artifacts\fd\fd59c4a262aa0a28e7be4f6badcaf664
@@ -20778,6 +20785,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: New Unity Project\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: New Unity Project\Library\EditorInstance.json
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\EditorInstance.json
@@ -20789,6 +20803,20 @@ MonoBehaviour:
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\EditorSnapSettings.asset
     projectPath: Library\EditorSnapSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: New Unity Project\Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: New Unity Project\Library\expandedItems
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Library\expandedItems
+    projectPath: Library\expandedItems
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -20824,6 +20852,13 @@ MonoBehaviour:
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Library\InspectorExpandedItems.asset
     projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: New Unity Project\Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -50058,6 +50093,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: New Unity Project\ProjectSettings\NavMeshAreas.asset
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\ProjectSettings\NavMeshAreas.asset
+    projectPath: ProjectSettings\NavMeshAreas.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: New Unity Project\ProjectSettings\ProjectVersion.txt
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\ProjectSettings\ProjectVersion.txt
@@ -50072,45 +50114,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\09e2ad185695dace21b494a4923380ee.lt
+  - path: New Unity Project\Temp\ProcessJobs\06fd73791913674b268d891f7cf42fb7.clust
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\09e2ad185695dace21b494a4923380ee.lt
-    projectPath: Temp\ProcessJobs\09e2ad185695dace21b494a4923380ee.lt
+      Unity Project\Temp\ProcessJobs\06fd73791913674b268d891f7cf42fb7.clust
+    projectPath: Temp\ProcessJobs\06fd73791913674b268d891f7cf42fb7.clust
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\09e2ad185695dace21b494a4923380ee.vis
+  - path: New Unity Project\Temp\ProcessJobs\1c44c245efcaf1642179803c0592ecb7.lt
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\09e2ad185695dace21b494a4923380ee.vis
-    projectPath: Temp\ProcessJobs\09e2ad185695dace21b494a4923380ee.vis
+      Unity Project\Temp\ProcessJobs\1c44c245efcaf1642179803c0592ecb7.lt
+    projectPath: Temp\ProcessJobs\1c44c245efcaf1642179803c0592ecb7.lt
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\1639703b103c05dd5ce576354ebed276.clust
+  - path: New Unity Project\Temp\ProcessJobs\1c44c245efcaf1642179803c0592ecb7.vis
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\1639703b103c05dd5ce576354ebed276.clust
-    projectPath: Temp\ProcessJobs\1639703b103c05dd5ce576354ebed276.clust
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\1bfce0d1d44b22d163c5a9dda2c9a9db.lt
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\1bfce0d1d44b22d163c5a9dda2c9a9db.lt
-    projectPath: Temp\ProcessJobs\1bfce0d1d44b22d163c5a9dda2c9a9db.lt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\1bfce0d1d44b22d163c5a9dda2c9a9db.vis
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\1bfce0d1d44b22d163c5a9dda2c9a9db.vis
-    projectPath: Temp\ProcessJobs\1bfce0d1d44b22d163c5a9dda2c9a9db.vis
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\1e44a84981885547d0b973739bfcd6a2.clust
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\1e44a84981885547d0b973739bfcd6a2.clust
-    projectPath: Temp\ProcessJobs\1e44a84981885547d0b973739bfcd6a2.clust
+      Unity Project\Temp\ProcessJobs\1c44c245efcaf1642179803c0592ecb7.vis
+    projectPath: Temp\ProcessJobs\1c44c245efcaf1642179803c0592ecb7.vis
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50128,13 +50149,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\284d3f493ced451edb694382b9b525ed.clust
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\284d3f493ced451edb694382b9b525ed.clust
-    projectPath: Temp\ProcessJobs\284d3f493ced451edb694382b9b525ed.clust
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: New Unity Project\Temp\ProcessJobs\2fe99b2f4c86e4aaf14a93489f95bdde.lt
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Temp\ProcessJobs\2fe99b2f4c86e4aaf14a93489f95bdde.lt
@@ -50149,31 +50163,17 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\ProcessJobs\420fdd13301e543f59972dcb409516ce.clust
+  - path: New Unity Project\Temp\ProcessJobs\3c2eb682d42164d7ff2b5ffe854e61bd.clust
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\420fdd13301e543f59972dcb409516ce.clust
-    projectPath: Temp\ProcessJobs\420fdd13301e543f59972dcb409516ce.clust
+      Unity Project\Temp\ProcessJobs\3c2eb682d42164d7ff2b5ffe854e61bd.clust
+    projectPath: Temp\ProcessJobs\3c2eb682d42164d7ff2b5ffe854e61bd.clust
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\434ba4d138ae1a1f3fa347565d609fdc.clust
+  - path: New Unity Project\Temp\ProcessJobs\3d2786c143747088147d2eda6a3bddb3.clust
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\434ba4d138ae1a1f3fa347565d609fdc.clust
-    projectPath: Temp\ProcessJobs\434ba4d138ae1a1f3fa347565d609fdc.clust
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\48e5ba6e1ab08b9f14ecc8fb02dbeb8a.lt
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\48e5ba6e1ab08b9f14ecc8fb02dbeb8a.lt
-    projectPath: Temp\ProcessJobs\48e5ba6e1ab08b9f14ecc8fb02dbeb8a.lt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\48e5ba6e1ab08b9f14ecc8fb02dbeb8a.vis
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\48e5ba6e1ab08b9f14ecc8fb02dbeb8a.vis
-    projectPath: Temp\ProcessJobs\48e5ba6e1ab08b9f14ecc8fb02dbeb8a.vis
+      Unity Project\Temp\ProcessJobs\3d2786c143747088147d2eda6a3bddb3.clust
+    projectPath: Temp\ProcessJobs\3d2786c143747088147d2eda6a3bddb3.clust
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50191,24 +50191,38 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\ProcessJobs\4c54b3bfd1e90a3bd5092c9fb711bce1.lt
+  - path: New Unity Project\Temp\ProcessJobs\541a32a6dc6da95494e9c906594ba569.lt
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\4c54b3bfd1e90a3bd5092c9fb711bce1.lt
-    projectPath: Temp\ProcessJobs\4c54b3bfd1e90a3bd5092c9fb711bce1.lt
+      Unity Project\Temp\ProcessJobs\541a32a6dc6da95494e9c906594ba569.lt
+    projectPath: Temp\ProcessJobs\541a32a6dc6da95494e9c906594ba569.lt
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\4c54b3bfd1e90a3bd5092c9fb711bce1.vis
+  - path: New Unity Project\Temp\ProcessJobs\541a32a6dc6da95494e9c906594ba569.vis
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\4c54b3bfd1e90a3bd5092c9fb711bce1.vis
-    projectPath: Temp\ProcessJobs\4c54b3bfd1e90a3bd5092c9fb711bce1.vis
+      Unity Project\Temp\ProcessJobs\541a32a6dc6da95494e9c906594ba569.vis
+    projectPath: Temp\ProcessJobs\541a32a6dc6da95494e9c906594ba569.vis
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\53f23008dbba18b43a7a14cde5792855.clust
+  - path: New Unity Project\Temp\ProcessJobs\57a4125433c590fc182c5a2f5cc78d0d.clust
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\53f23008dbba18b43a7a14cde5792855.clust
-    projectPath: Temp\ProcessJobs\53f23008dbba18b43a7a14cde5792855.clust
+      Unity Project\Temp\ProcessJobs\57a4125433c590fc182c5a2f5cc78d0d.clust
+    projectPath: Temp\ProcessJobs\57a4125433c590fc182c5a2f5cc78d0d.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\6a823db8472a83c8793f019667f0893d.lt
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\6a823db8472a83c8793f019667f0893d.lt
+    projectPath: Temp\ProcessJobs\6a823db8472a83c8793f019667f0893d.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\6a823db8472a83c8793f019667f0893d.vis
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\6a823db8472a83c8793f019667f0893d.vis
+    projectPath: Temp\ProcessJobs\6a823db8472a83c8793f019667f0893d.vis
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50219,10 +50233,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\6f73db4717527aa049574b12ed9b9e20.clust
+  - path: New Unity Project\Temp\ProcessJobs\6fe0b9bbf498b04674b829effc5bc235.clust
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\6f73db4717527aa049574b12ed9b9e20.clust
-    projectPath: Temp\ProcessJobs\6f73db4717527aa049574b12ed9b9e20.clust
+      Unity Project\Temp\ProcessJobs\6fe0b9bbf498b04674b829effc5bc235.clust
+    projectPath: Temp\ProcessJobs\6fe0b9bbf498b04674b829effc5bc235.clust
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50240,6 +50254,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: New Unity Project\Temp\ProcessJobs\759a75e98739e3f83f0bea9af18aead1.clust
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\759a75e98739e3f83f0bea9af18aead1.clust
+    projectPath: Temp\ProcessJobs\759a75e98739e3f83f0bea9af18aead1.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Temp\ProcessJobs\7db1c65d5e22a9ed680216fb67ef4d91.clust
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Temp\ProcessJobs\7db1c65d5e22a9ed680216fb67ef4d91.clust
@@ -50268,6 +50289,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\8a804524d5040fb07cbe91bedc0eabb7.clust
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\8a804524d5040fb07cbe91bedc0eabb7.clust
+    projectPath: Temp\ProcessJobs\8a804524d5040fb07cbe91bedc0eabb7.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Temp\ProcessJobs\8cf0fef77524ae696bb25ad03f3d1d7f.lt
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Temp\ProcessJobs\8cf0fef77524ae696bb25ad03f3d1d7f.lt
@@ -50282,10 +50310,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\9bc061670d832346bc993721efdf263f.clust
+  - path: New Unity Project\Temp\ProcessJobs\9750f5926d7be2bc28042ae9e313ef36.clust
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\9bc061670d832346bc993721efdf263f.clust
-    projectPath: Temp\ProcessJobs\9bc061670d832346bc993721efdf263f.clust
+      Unity Project\Temp\ProcessJobs\9750f5926d7be2bc28042ae9e313ef36.clust
+    projectPath: Temp\ProcessJobs\9750f5926d7be2bc28042ae9e313ef36.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\9cf4b85123e5b058dc25cd5b12dcdfbb.lt
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\9cf4b85123e5b058dc25cd5b12dcdfbb.lt
+    projectPath: Temp\ProcessJobs\9cf4b85123e5b058dc25cd5b12dcdfbb.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\9cf4b85123e5b058dc25cd5b12dcdfbb.vis
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\9cf4b85123e5b058dc25cd5b12dcdfbb.vis
+    projectPath: Temp\ProcessJobs\9cf4b85123e5b058dc25cd5b12dcdfbb.vis
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50296,10 +50338,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\ProcessJobs\a1505af4220b2ee5be78d61bc0d32943.clust
+  - path: New Unity Project\Temp\ProcessJobs\a4537859446dfd2198dacf3149d3a1e3.clust
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\a1505af4220b2ee5be78d61bc0d32943.clust
-    projectPath: Temp\ProcessJobs\a1505af4220b2ee5be78d61bc0d32943.clust
+      Unity Project\Temp\ProcessJobs\a4537859446dfd2198dacf3149d3a1e3.clust
+    projectPath: Temp\ProcessJobs\a4537859446dfd2198dacf3149d3a1e3.clust
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50310,59 +50352,45 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\aa1714ef3707e78bb618c1a01a5878be.clust
+  - path: New Unity Project\Temp\ProcessJobs\b6c3c634ff306ed5fd132ffa263abd83.lt
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\aa1714ef3707e78bb618c1a01a5878be.clust
-    projectPath: Temp\ProcessJobs\aa1714ef3707e78bb618c1a01a5878be.clust
+      Unity Project\Temp\ProcessJobs\b6c3c634ff306ed5fd132ffa263abd83.lt
+    projectPath: Temp\ProcessJobs\b6c3c634ff306ed5fd132ffa263abd83.lt
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\cbef68ac34614983b9f10d7d9671d47d.lt
+  - path: New Unity Project\Temp\ProcessJobs\b6c3c634ff306ed5fd132ffa263abd83.vis
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\cbef68ac34614983b9f10d7d9671d47d.lt
-    projectPath: Temp\ProcessJobs\cbef68ac34614983b9f10d7d9671d47d.lt
+      Unity Project\Temp\ProcessJobs\b6c3c634ff306ed5fd132ffa263abd83.vis
+    projectPath: Temp\ProcessJobs\b6c3c634ff306ed5fd132ffa263abd83.vis
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\cbef68ac34614983b9f10d7d9671d47d.vis
+  - path: New Unity Project\Temp\ProcessJobs\c853a97357a8e1335077639ee01f33c8.lt
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\cbef68ac34614983b9f10d7d9671d47d.vis
-    projectPath: Temp\ProcessJobs\cbef68ac34614983b9f10d7d9671d47d.vis
+      Unity Project\Temp\ProcessJobs\c853a97357a8e1335077639ee01f33c8.lt
+    projectPath: Temp\ProcessJobs\c853a97357a8e1335077639ee01f33c8.lt
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\cff312548335e4632d2304747558ffd1.clust
+  - path: New Unity Project\Temp\ProcessJobs\c853a97357a8e1335077639ee01f33c8.vis
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\cff312548335e4632d2304747558ffd1.clust
-    projectPath: Temp\ProcessJobs\cff312548335e4632d2304747558ffd1.clust
+      Unity Project\Temp\ProcessJobs\c853a97357a8e1335077639ee01f33c8.vis
+    projectPath: Temp\ProcessJobs\c853a97357a8e1335077639ee01f33c8.vis
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\d013c4ab1a99cd3dd0fc6ddd2d100926.lt
+  - path: New Unity Project\Temp\ProcessJobs\d7c72b2af0a4929088d2ee708d8e06e1.lt
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\d013c4ab1a99cd3dd0fc6ddd2d100926.lt
-    projectPath: Temp\ProcessJobs\d013c4ab1a99cd3dd0fc6ddd2d100926.lt
+      Unity Project\Temp\ProcessJobs\d7c72b2af0a4929088d2ee708d8e06e1.lt
+    projectPath: Temp\ProcessJobs\d7c72b2af0a4929088d2ee708d8e06e1.lt
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\d013c4ab1a99cd3dd0fc6ddd2d100926.vis
+  - path: New Unity Project\Temp\ProcessJobs\d7c72b2af0a4929088d2ee708d8e06e1.vis
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\d013c4ab1a99cd3dd0fc6ddd2d100926.vis
-    projectPath: Temp\ProcessJobs\d013c4ab1a99cd3dd0fc6ddd2d100926.vis
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\d6c1b660787545ed4a81715c9e2a2f3c.lt
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\d6c1b660787545ed4a81715c9e2a2f3c.lt
-    projectPath: Temp\ProcessJobs\d6c1b660787545ed4a81715c9e2a2f3c.lt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\d6c1b660787545ed4a81715c9e2a2f3c.vis
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\d6c1b660787545ed4a81715c9e2a2f3c.vis
-    projectPath: Temp\ProcessJobs\d6c1b660787545ed4a81715c9e2a2f3c.vis
+      Unity Project\Temp\ProcessJobs\d7c72b2af0a4929088d2ee708d8e06e1.vis
+    projectPath: Temp\ProcessJobs\d7c72b2af0a4929088d2ee708d8e06e1.vis
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50373,24 +50401,45 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\ProcessJobs\e0730a45f96b0d0faf275eecd4b1f22d.clust
+  - path: New Unity Project\Temp\ProcessJobs\ddc1ce2d7a47475d64bbc74319dfa213.lt
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\e0730a45f96b0d0faf275eecd4b1f22d.clust
-    projectPath: Temp\ProcessJobs\e0730a45f96b0d0faf275eecd4b1f22d.clust
+      Unity Project\Temp\ProcessJobs\ddc1ce2d7a47475d64bbc74319dfa213.lt
+    projectPath: Temp\ProcessJobs\ddc1ce2d7a47475d64bbc74319dfa213.lt
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\e19c03670fec1a7c2861fa443a5d1aa2.clust
+  - path: New Unity Project\Temp\ProcessJobs\ddc1ce2d7a47475d64bbc74319dfa213.vis
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\e19c03670fec1a7c2861fa443a5d1aa2.clust
-    projectPath: Temp\ProcessJobs\e19c03670fec1a7c2861fa443a5d1aa2.clust
+      Unity Project\Temp\ProcessJobs\ddc1ce2d7a47475d64bbc74319dfa213.vis
+    projectPath: Temp\ProcessJobs\ddc1ce2d7a47475d64bbc74319dfa213.vis
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\e4f293b779da784aeaf527406f7ba0f1.clust
+  - path: New Unity Project\Temp\ProcessJobs\de24fe64fe3d2e4774072d86a0b1d95a.clust
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\e4f293b779da784aeaf527406f7ba0f1.clust
-    projectPath: Temp\ProcessJobs\e4f293b779da784aeaf527406f7ba0f1.clust
+      Unity Project\Temp\ProcessJobs\de24fe64fe3d2e4774072d86a0b1d95a.clust
+    projectPath: Temp\ProcessJobs\de24fe64fe3d2e4774072d86a0b1d95a.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\df66b00083e01122839e665d76a4d136.lt
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\df66b00083e01122839e665d76a4d136.lt
+    projectPath: Temp\ProcessJobs\df66b00083e01122839e665d76a4d136.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\df66b00083e01122839e665d76a4d136.vis
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\df66b00083e01122839e665d76a4d136.vis
+    projectPath: Temp\ProcessJobs\df66b00083e01122839e665d76a4d136.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\e573be8071a22d2a5afcfc27023fe430.clust
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\e573be8071a22d2a5afcfc27023fe430.clust
+    projectPath: Temp\ProcessJobs\e573be8071a22d2a5afcfc27023fe430.clust
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50398,6 +50447,20 @@ MonoBehaviour:
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Temp\ProcessJobs\e57536d89de9cc15e1c620c917704266.clust
     projectPath: Temp\ProcessJobs\e57536d89de9cc15e1c620c917704266.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\e963f97b0eadc58944337356b026f951.lt
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\e963f97b0eadc58944337356b026f951.lt
+    projectPath: Temp\ProcessJobs\e963f97b0eadc58944337356b026f951.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\e963f97b0eadc58944337356b026f951.vis
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\e963f97b0eadc58944337356b026f951.vis
+    projectPath: Temp\ProcessJobs\e963f97b0eadc58944337356b026f951.vis
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50422,17 +50485,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: New Unity Project\Temp\ProcessJobs\eb27aa83c70292dd5a53621541cb4366.lt
+  - path: New Unity Project\Temp\ProcessJobs\e9f52ce8b86ec90c7ee912abd37ba7ed.clust
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\eb27aa83c70292dd5a53621541cb4366.lt
-    projectPath: Temp\ProcessJobs\eb27aa83c70292dd5a53621541cb4366.lt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\ProcessJobs\eb27aa83c70292dd5a53621541cb4366.vis
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\ProcessJobs\eb27aa83c70292dd5a53621541cb4366.vis
-    projectPath: Temp\ProcessJobs\eb27aa83c70292dd5a53621541cb4366.vis
+      Unity Project\Temp\ProcessJobs\e9f52ce8b86ec90c7ee912abd37ba7ed.clust
+    projectPath: Temp\ProcessJobs\e9f52ce8b86ec90c7ee912abd37ba7ed.clust
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50443,6 +50499,55 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: New Unity Project\Temp\ProcessJobs\ed54186a352fd48db24506de13005d68.lt
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\ed54186a352fd48db24506de13005d68.lt
+    projectPath: Temp\ProcessJobs\ed54186a352fd48db24506de13005d68.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\ed54186a352fd48db24506de13005d68.vis
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\ed54186a352fd48db24506de13005d68.vis
+    projectPath: Temp\ProcessJobs\ed54186a352fd48db24506de13005d68.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\f1a13d2316d64178234778e8c534295d.clust
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\f1a13d2316d64178234778e8c534295d.clust
+    projectPath: Temp\ProcessJobs\f1a13d2316d64178234778e8c534295d.clust
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\f268c437ffc6a13fab66b595590d0de1.lt
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\f268c437ffc6a13fab66b595590d0de1.lt
+    projectPath: Temp\ProcessJobs\f268c437ffc6a13fab66b595590d0de1.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\f268c437ffc6a13fab66b595590d0de1.vis
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\f268c437ffc6a13fab66b595590d0de1.vis
+    projectPath: Temp\ProcessJobs\f268c437ffc6a13fab66b595590d0de1.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\f6f10fe5ca6cf097104f1979d2151bc8.lt
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\f6f10fe5ca6cf097104f1979d2151bc8.lt
+    projectPath: Temp\ProcessJobs\f6f10fe5ca6cf097104f1979d2151bc8.lt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\ProcessJobs\f6f10fe5ca6cf097104f1979d2151bc8.vis
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\ProcessJobs\f6f10fe5ca6cf097104f1979d2151bc8.vis
+    projectPath: Temp\ProcessJobs\f6f10fe5ca6cf097104f1979d2151bc8.vis
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Temp\ProcessJobs\faf947ea5e4db34c6701bd6cf801dc44.lt
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Temp\ProcessJobs\faf947ea5e4db34c6701bd6cf801dc44.lt
@@ -50471,94 +50576,52 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\UnityTempFile-06df3da90ed3f374a848e6e554647400
+  - path: New Unity Project\Temp\UnityTempFile-0c7578979ca18bf40a8d21c4318a698d
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-06df3da90ed3f374a848e6e554647400
-    projectPath: Temp\UnityTempFile-06df3da90ed3f374a848e6e554647400
+      Unity Project\Temp\UnityTempFile-0c7578979ca18bf40a8d21c4318a698d
+    projectPath: Temp\UnityTempFile-0c7578979ca18bf40a8d21c4318a698d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-07f93147477d7a045b137076ec5a59e3
+  - path: New Unity Project\Temp\UnityTempFile-1034e0cdc7b260b4680676c3c178c969
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-07f93147477d7a045b137076ec5a59e3
-    projectPath: Temp\UnityTempFile-07f93147477d7a045b137076ec5a59e3
+      Unity Project\Temp\UnityTempFile-1034e0cdc7b260b4680676c3c178c969
+    projectPath: Temp\UnityTempFile-1034e0cdc7b260b4680676c3c178c969
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-0a5565ea6c680024a9cf2620ad8a2c67
+  - path: New Unity Project\Temp\UnityTempFile-12e367d163bb5164fbb223674d65f6e3
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-0a5565ea6c680024a9cf2620ad8a2c67
-    projectPath: Temp\UnityTempFile-0a5565ea6c680024a9cf2620ad8a2c67
+      Unity Project\Temp\UnityTempFile-12e367d163bb5164fbb223674d65f6e3
+    projectPath: Temp\UnityTempFile-12e367d163bb5164fbb223674d65f6e3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-116a693f92ba77a46b0e16cf7df9cb15
+  - path: New Unity Project\Temp\UnityTempFile-166f216d04c1697428b679b5fa4b4724
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-116a693f92ba77a46b0e16cf7df9cb15
-    projectPath: Temp\UnityTempFile-116a693f92ba77a46b0e16cf7df9cb15
+      Unity Project\Temp\UnityTempFile-166f216d04c1697428b679b5fa4b4724
+    projectPath: Temp\UnityTempFile-166f216d04c1697428b679b5fa4b4724
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-126a1ab7a311f034cad5d652081c814d
+  - path: New Unity Project\Temp\UnityTempFile-1a7af8c0bf1fc394297fe2b77a99ba6f
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-126a1ab7a311f034cad5d652081c814d
-    projectPath: Temp\UnityTempFile-126a1ab7a311f034cad5d652081c814d
+      Unity Project\Temp\UnityTempFile-1a7af8c0bf1fc394297fe2b77a99ba6f
+    projectPath: Temp\UnityTempFile-1a7af8c0bf1fc394297fe2b77a99ba6f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-1f48f0fa84bcfc94ca59cd91655783af
+  - path: New Unity Project\Temp\UnityTempFile-29a76daac8758ca40899afcc75be2a2a
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-1f48f0fa84bcfc94ca59cd91655783af
-    projectPath: Temp\UnityTempFile-1f48f0fa84bcfc94ca59cd91655783af
+      Unity Project\Temp\UnityTempFile-29a76daac8758ca40899afcc75be2a2a
+    projectPath: Temp\UnityTempFile-29a76daac8758ca40899afcc75be2a2a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-22cbe182e56ef154fba75bcc80768879
+  - path: New Unity Project\Temp\UnityTempFile-3c77f1799abf5bc4f8a26a5133442453
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-22cbe182e56ef154fba75bcc80768879
-    projectPath: Temp\UnityTempFile-22cbe182e56ef154fba75bcc80768879
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-26640a807368ff84db4f718f4e4b841c
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-26640a807368ff84db4f718f4e4b841c
-    projectPath: Temp\UnityTempFile-26640a807368ff84db4f718f4e4b841c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-26bc029ec5ac6f74188b97a84a990ef3
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-26bc029ec5ac6f74188b97a84a990ef3
-    projectPath: Temp\UnityTempFile-26bc029ec5ac6f74188b97a84a990ef3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-2b4ad3032fccb7d4889591fa982abcb2
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-2b4ad3032fccb7d4889591fa982abcb2
-    projectPath: Temp\UnityTempFile-2b4ad3032fccb7d4889591fa982abcb2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-2df7d80c0d2fd4e409f4b89bd95ab1e3
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-2df7d80c0d2fd4e409f4b89bd95ab1e3
-    projectPath: Temp\UnityTempFile-2df7d80c0d2fd4e409f4b89bd95ab1e3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-343373a84c2ed4f4caa71c2eb3de2ff1
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-343373a84c2ed4f4caa71c2eb3de2ff1
-    projectPath: Temp\UnityTempFile-343373a84c2ed4f4caa71c2eb3de2ff1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-366353893b1d8f341960e87653fa60ee
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-366353893b1d8f341960e87653fa60ee
-    projectPath: Temp\UnityTempFile-366353893b1d8f341960e87653fa60ee
+      Unity Project\Temp\UnityTempFile-3c77f1799abf5bc4f8a26a5133442453
+    projectPath: Temp\UnityTempFile-3c77f1799abf5bc4f8a26a5133442453
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50569,17 +50632,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\UnityTempFile-42ac1d19f760cdf46aab164e63634e2e
+  - path: New Unity Project\Temp\UnityTempFile-44a77899d8d1e064ba01778edac5e982
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-42ac1d19f760cdf46aab164e63634e2e
-    projectPath: Temp\UnityTempFile-42ac1d19f760cdf46aab164e63634e2e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-49dd387d5d1acf2489283f2b62702e0e
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-49dd387d5d1acf2489283f2b62702e0e
-    projectPath: Temp\UnityTempFile-49dd387d5d1acf2489283f2b62702e0e
+      Unity Project\Temp\UnityTempFile-44a77899d8d1e064ba01778edac5e982
+    projectPath: Temp\UnityTempFile-44a77899d8d1e064ba01778edac5e982
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50597,27 +50653,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\UnityTempFile-5d219b5082da3864a9836dcaf107a3ab
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-5d219b5082da3864a9836dcaf107a3ab
-    projectPath: Temp\UnityTempFile-5d219b5082da3864a9836dcaf107a3ab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-5e502db0541acdb4eb50182e4cff986b
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-5e502db0541acdb4eb50182e4cff986b
-    projectPath: Temp\UnityTempFile-5e502db0541acdb4eb50182e4cff986b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-5f04214f19b535f41bbed4293f8c4770
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-5f04214f19b535f41bbed4293f8c4770
-    projectPath: Temp\UnityTempFile-5f04214f19b535f41bbed4293f8c4770
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: New Unity Project\Temp\UnityTempFile-6022afe0bc55a55468f6d7dedfd1f87e
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Temp\UnityTempFile-6022afe0bc55a55468f6d7dedfd1f87e
@@ -50632,10 +50667,17 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\UnityTempFile-66f899121f34ee94d9aaee30fd61d9ad
+  - path: New Unity Project\Temp\UnityTempFile-6a48c549cffca8245bd734de93a60954
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-66f899121f34ee94d9aaee30fd61d9ad
-    projectPath: Temp\UnityTempFile-66f899121f34ee94d9aaee30fd61d9ad
+      Unity Project\Temp\UnityTempFile-6a48c549cffca8245bd734de93a60954
+    projectPath: Temp\UnityTempFile-6a48c549cffca8245bd734de93a60954
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\UnityTempFile-6e12d74ead47de14f8321fc804218ef3
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\UnityTempFile-6e12d74ead47de14f8321fc804218ef3
+    projectPath: Temp\UnityTempFile-6e12d74ead47de14f8321fc804218ef3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50646,34 +50688,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\UnityTempFile-70476aeb88e979f478224e2a63ad9358
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-70476aeb88e979f478224e2a63ad9358
-    projectPath: Temp\UnityTempFile-70476aeb88e979f478224e2a63ad9358
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-73008187166e8a0449ea287a13f2cd8b
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-73008187166e8a0449ea287a13f2cd8b
-    projectPath: Temp\UnityTempFile-73008187166e8a0449ea287a13f2cd8b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-7520bdfb5392e694fbec878ade1eaecb
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-7520bdfb5392e694fbec878ade1eaecb
-    projectPath: Temp\UnityTempFile-7520bdfb5392e694fbec878ade1eaecb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-771b13fdb52ac2142b9a258b45aebb28
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-771b13fdb52ac2142b9a258b45aebb28
-    projectPath: Temp\UnityTempFile-771b13fdb52ac2142b9a258b45aebb28
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: New Unity Project\Temp\UnityTempFile-77c77c9611a59e4429dc1dbc13cd6ea6
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Temp\UnityTempFile-77c77c9611a59e4429dc1dbc13cd6ea6
@@ -50681,6 +50695,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: New Unity Project\Temp\UnityTempFile-788f83ae63d614c4ebfa3379a63aeb5d
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\UnityTempFile-788f83ae63d614c4ebfa3379a63aeb5d
+    projectPath: Temp\UnityTempFile-788f83ae63d614c4ebfa3379a63aeb5d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Temp\UnityTempFile-79b3b69d20e1dfc4d805fe240ca28f86
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Temp\UnityTempFile-79b3b69d20e1dfc4d805fe240ca28f86
@@ -50695,6 +50716,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: New Unity Project\Temp\UnityTempFile-7dfd196f3f6fa6548bd4275a96a09e69
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\UnityTempFile-7dfd196f3f6fa6548bd4275a96a09e69
+    projectPath: Temp\UnityTempFile-7dfd196f3f6fa6548bd4275a96a09e69
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Temp\UnityTempFile-8178bd0e04e77754d8696827dceccd3e
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Temp\UnityTempFile-8178bd0e04e77754d8696827dceccd3e
@@ -50702,10 +50730,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\UnityTempFile-831e6e388c45ff44a9297506b79e4c72
+  - path: New Unity Project\Temp\UnityTempFile-853cc7b64c922ae40a19a4a239a28503
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-831e6e388c45ff44a9297506b79e4c72
-    projectPath: Temp\UnityTempFile-831e6e388c45ff44a9297506b79e4c72
+      Unity Project\Temp\UnityTempFile-853cc7b64c922ae40a19a4a239a28503
+    projectPath: Temp\UnityTempFile-853cc7b64c922ae40a19a4a239a28503
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50716,17 +50744,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\UnityTempFile-8603776c8b6c56948a0c5d0a7a10d419
+  - path: New Unity Project\Temp\UnityTempFile-8809b02c4f3575d4aa57f2b5b1664401
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-8603776c8b6c56948a0c5d0a7a10d419
-    projectPath: Temp\UnityTempFile-8603776c8b6c56948a0c5d0a7a10d419
+      Unity Project\Temp\UnityTempFile-8809b02c4f3575d4aa57f2b5b1664401
+    projectPath: Temp\UnityTempFile-8809b02c4f3575d4aa57f2b5b1664401
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-880d200d5d39aaf47b218761479eb386
+  - path: New Unity Project\Temp\UnityTempFile-8b46f4b6ba6ea414c8c831318e8a81e7
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-880d200d5d39aaf47b218761479eb386
-    projectPath: Temp\UnityTempFile-880d200d5d39aaf47b218761479eb386
+      Unity Project\Temp\UnityTempFile-8b46f4b6ba6ea414c8c831318e8a81e7
+    projectPath: Temp\UnityTempFile-8b46f4b6ba6ea414c8c831318e8a81e7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\UnityTempFile-8de088e204ad3bf4eb88b8d1023c0111
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\UnityTempFile-8de088e204ad3bf4eb88b8d1023c0111
+    projectPath: Temp\UnityTempFile-8de088e204ad3bf4eb88b8d1023c0111
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50737,10 +50772,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\UnityTempFile-92b817c32df28fc44a97d25200e750a5
+  - path: New Unity Project\Temp\UnityTempFile-93774737db204654a988f6636a7ab1e3
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-92b817c32df28fc44a97d25200e750a5
-    projectPath: Temp\UnityTempFile-92b817c32df28fc44a97d25200e750a5
+      Unity Project\Temp\UnityTempFile-93774737db204654a988f6636a7ab1e3
+    projectPath: Temp\UnityTempFile-93774737db204654a988f6636a7ab1e3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50751,59 +50786,66 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\UnityTempFile-a032bc998abb2f349ad75838af0d4d53
+  - path: New Unity Project\Temp\UnityTempFile-99cb0ea8dfe2161409cd850752737a41
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-a032bc998abb2f349ad75838af0d4d53
-    projectPath: Temp\UnityTempFile-a032bc998abb2f349ad75838af0d4d53
+      Unity Project\Temp\UnityTempFile-99cb0ea8dfe2161409cd850752737a41
+    projectPath: Temp\UnityTempFile-99cb0ea8dfe2161409cd850752737a41
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-a320b68181c7c964bab13e2cc0d55da4
+  - path: New Unity Project\Temp\UnityTempFile-9acdff1552c6460449962666c3683063
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-a320b68181c7c964bab13e2cc0d55da4
-    projectPath: Temp\UnityTempFile-a320b68181c7c964bab13e2cc0d55da4
+      Unity Project\Temp\UnityTempFile-9acdff1552c6460449962666c3683063
+    projectPath: Temp\UnityTempFile-9acdff1552c6460449962666c3683063
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-aa3041cac2b0cfd4ab628b2a0c63649f
+  - path: New Unity Project\Temp\UnityTempFile-9bb8df7d23d28c04a9fcf867901ce2e1
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-aa3041cac2b0cfd4ab628b2a0c63649f
-    projectPath: Temp\UnityTempFile-aa3041cac2b0cfd4ab628b2a0c63649f
+      Unity Project\Temp\UnityTempFile-9bb8df7d23d28c04a9fcf867901ce2e1
+    projectPath: Temp\UnityTempFile-9bb8df7d23d28c04a9fcf867901ce2e1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-b4d8f6e775888a741869bbf009e9b934
+  - path: New Unity Project\Temp\UnityTempFile-a01c508649cd4ed4ea26d84483c6f1bb
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-b4d8f6e775888a741869bbf009e9b934
-    projectPath: Temp\UnityTempFile-b4d8f6e775888a741869bbf009e9b934
+      Unity Project\Temp\UnityTempFile-a01c508649cd4ed4ea26d84483c6f1bb
+    projectPath: Temp\UnityTempFile-a01c508649cd4ed4ea26d84483c6f1bb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-b7d664b693368b144ac831ee42f6acc9
+  - path: New Unity Project\Temp\UnityTempFile-ad27c410cb22ab14ab1443818ca4c5f2
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-b7d664b693368b144ac831ee42f6acc9
-    projectPath: Temp\UnityTempFile-b7d664b693368b144ac831ee42f6acc9
+      Unity Project\Temp\UnityTempFile-ad27c410cb22ab14ab1443818ca4c5f2
+    projectPath: Temp\UnityTempFile-ad27c410cb22ab14ab1443818ca4c5f2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-bb4e4aac10aa4a04f823377a4e3917f8
+  - path: New Unity Project\Temp\UnityTempFile-beb9fc36ff59f23448011dc9f2104481
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-bb4e4aac10aa4a04f823377a4e3917f8
-    projectPath: Temp\UnityTempFile-bb4e4aac10aa4a04f823377a4e3917f8
+      Unity Project\Temp\UnityTempFile-beb9fc36ff59f23448011dc9f2104481
+    projectPath: Temp\UnityTempFile-beb9fc36ff59f23448011dc9f2104481
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-bccf13234118e714598143ee9f9cd138
+  - path: New Unity Project\Temp\UnityTempFile-c190c5f9adfb88047900d01d3f10d41b
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-bccf13234118e714598143ee9f9cd138
-    projectPath: Temp\UnityTempFile-bccf13234118e714598143ee9f9cd138
+      Unity Project\Temp\UnityTempFile-c190c5f9adfb88047900d01d3f10d41b
+    projectPath: Temp\UnityTempFile-c190c5f9adfb88047900d01d3f10d41b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-c1b269610168f6d4ba893edcfc3afef8
+  - path: New Unity Project\Temp\UnityTempFile-c6330b9ee0f153940b293833437ed94b
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-c1b269610168f6d4ba893edcfc3afef8
-    projectPath: Temp\UnityTempFile-c1b269610168f6d4ba893edcfc3afef8
+      Unity Project\Temp\UnityTempFile-c6330b9ee0f153940b293833437ed94b
+    projectPath: Temp\UnityTempFile-c6330b9ee0f153940b293833437ed94b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\UnityTempFile-ca0e72936d508ca4696fdf05e49024fb
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\UnityTempFile-ca0e72936d508ca4696fdf05e49024fb
+    projectPath: Temp\UnityTempFile-ca0e72936d508ca4696fdf05e49024fb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50814,24 +50856,24 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\UnityTempFile-cb3a77b3cca0108408f3edfde029f812
+  - path: New Unity Project\Temp\UnityTempFile-ce099449bcb270f40beaeb8bca29f421
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-cb3a77b3cca0108408f3edfde029f812
-    projectPath: Temp\UnityTempFile-cb3a77b3cca0108408f3edfde029f812
+      Unity Project\Temp\UnityTempFile-ce099449bcb270f40beaeb8bca29f421
+    projectPath: Temp\UnityTempFile-ce099449bcb270f40beaeb8bca29f421
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-cc8e0c67b0692a947bf3fd5d4d0efa0a
+  - path: New Unity Project\Temp\UnityTempFile-d93879f47477c3749b0ffc23678a823c
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-cc8e0c67b0692a947bf3fd5d4d0efa0a
-    projectPath: Temp\UnityTempFile-cc8e0c67b0692a947bf3fd5d4d0efa0a
+      Unity Project\Temp\UnityTempFile-d93879f47477c3749b0ffc23678a823c
+    projectPath: Temp\UnityTempFile-d93879f47477c3749b0ffc23678a823c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-dbc070d8002bd1145b76eae3a9dbd7dd
+  - path: New Unity Project\Temp\UnityTempFile-dfd798577e11c2e4c83ea7eeb5f8fbb2
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-dbc070d8002bd1145b76eae3a9dbd7dd
-    projectPath: Temp\UnityTempFile-dbc070d8002bd1145b76eae3a9dbd7dd
+      Unity Project\Temp\UnityTempFile-dfd798577e11c2e4c83ea7eeb5f8fbb2
+    projectPath: Temp\UnityTempFile-dfd798577e11c2e4c83ea7eeb5f8fbb2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50842,52 +50884,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\UnityTempFile-e2d5f59dd5ec24c4f8875771c559357d
+  - path: New Unity Project\Temp\UnityTempFile-ea06a9644c462bd48b1ed3bfc732e835
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-e2d5f59dd5ec24c4f8875771c559357d
-    projectPath: Temp\UnityTempFile-e2d5f59dd5ec24c4f8875771c559357d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-e3547108834e1fc439455b1c46e30c77
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-e3547108834e1fc439455b1c46e30c77
-    projectPath: Temp\UnityTempFile-e3547108834e1fc439455b1c46e30c77
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-e556f15965b5ee34ca7118b545d2a346
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-e556f15965b5ee34ca7118b545d2a346
-    projectPath: Temp\UnityTempFile-e556f15965b5ee34ca7118b545d2a346
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-e9d99a7b7b4a35c43a4eec43839edba9
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-e9d99a7b7b4a35c43a4eec43839edba9
-    projectPath: Temp\UnityTempFile-e9d99a7b7b4a35c43a4eec43839edba9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-ea1c335463cec2f48b319636718a7e7e
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-ea1c335463cec2f48b319636718a7e7e
-    projectPath: Temp\UnityTempFile-ea1c335463cec2f48b319636718a7e7e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-eadc3ec76ae3dd3428119c514fff459e
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-eadc3ec76ae3dd3428119c514fff459e
-    projectPath: Temp\UnityTempFile-eadc3ec76ae3dd3428119c514fff459e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-ee84a74835e2a7c4f80e3c2f83237046
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-ee84a74835e2a7c4f80e3c2f83237046
-    projectPath: Temp\UnityTempFile-ee84a74835e2a7c4f80e3c2f83237046
+      Unity Project\Temp\UnityTempFile-ea06a9644c462bd48b1ed3bfc732e835
+    projectPath: Temp\UnityTempFile-ea06a9644c462bd48b1ed3bfc732e835
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50898,6 +50898,20 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: New Unity Project\Temp\UnityTempFile-f292a4d0c2ee81243883fbd7ec7b3987
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\UnityTempFile-f292a4d0c2ee81243883fbd7ec7b3987
+    projectPath: Temp\UnityTempFile-f292a4d0c2ee81243883fbd7ec7b3987
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: New Unity Project\Temp\UnityTempFile-f2f5916bcb3f22c4ab4fba6f0b546627
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\UnityTempFile-f2f5916bcb3f22c4ab4fba6f0b546627
+    projectPath: Temp\UnityTempFile-f2f5916bcb3f22c4ab4fba6f0b546627
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: New Unity Project\Temp\UnityTempFile-f5b953297f80d7443b52964a34bfe0cc
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
       Unity Project\Temp\UnityTempFile-f5b953297f80d7443b52964a34bfe0cc
@@ -50905,17 +50919,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: New Unity Project\Temp\UnityTempFile-fb4c33c68a50aa54a8cfc6b6ca92529c
+  - path: New Unity Project\Temp\UnityTempFile-fae41711c9fa58749ad86c79fb8e351f
     fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-fb4c33c68a50aa54a8cfc6b6ca92529c
-    projectPath: Temp\UnityTempFile-fb4c33c68a50aa54a8cfc6b6ca92529c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: New Unity Project\Temp\UnityTempFile-fb7b09a263699714fb50a1f0f79de849
-    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
-      Unity Project\Temp\UnityTempFile-fb7b09a263699714fb50a1f0f79de849
-    projectPath: Temp\UnityTempFile-fb7b09a263699714fb50a1f0f79de849
+      Unity Project\Temp\UnityTempFile-fae41711c9fa58749ad86c79fb8e351f
+    projectPath: Temp\UnityTempFile-fae41711c9fa58749ad86c79fb8e351f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -50926,3 +50933,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: New Unity Project\Temp\UnityTempFile-fea7b382184c43e46ae55e1da6cb4992
+    fullPath: C:\Users\ricar\OneDrive\Documentos\Unity Projects\EldritchKnight\New
+      Unity Project\Temp\UnityTempFile-fea7b382184c43e46ae55e1da6cb4992
+    projectPath: Temp\UnityTempFile-fea7b382184c43e46ae55e1da6cb4992
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
