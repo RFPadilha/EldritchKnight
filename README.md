@@ -1,6 +1,6 @@
-#Eldritch Knight
+# Eldritch Knight
 
-#Next steps:
+## Next steps:
 
 -Fix and animate block
 
@@ -18,7 +18,7 @@
 
 -acquire new weapons
 
-#Project Details:
+## Project Details:
 
 -3D Top down
 
@@ -28,7 +28,7 @@
 
 -Health and Mana as resources
 
-#What is is about?
+## What is is about?
 
 -conjuring elements into your equipment
 
@@ -38,7 +38,7 @@
 
 -finding combos with martial and magical prowess alike
 
-#Player Commands:
+## Player Commands:
 
 -LB - Dash(DONE)
 
@@ -72,7 +72,7 @@
 
 -RT(hold) - launch attack
 
-#Combos:(Hold element while acting)
+## Combos:(Hold element while acting)
 
 Dashing has different effects:
 
